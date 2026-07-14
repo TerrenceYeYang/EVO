@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A gene-primary evidence atlas mapping initialization DNA and PPL convergence across training corpora and exact model parameter counts.">
+  <meta name="theme-color" content="#07151d">
+  <meta property="og:title" content="EVO DNA Atlas · Runnable micro-models and initialization genes">
+  <meta property="og:description" content="Query initialization genes by model and corpus, with five-seed held-out PPL curves and explicit untested cells.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://terrenceyeyang.github.io/EVO/">
+  <meta property="og:image" content="https://terrenceyeyang.github.io/EVO/assets/evo-dna-atlas-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="EVO DNA Atlas poster with a DNA helix and three-column corpus evidence matrix">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="EVO DNA Atlas · Runnable micro-models and initialization genes">
+  <meta name="twitter:description" content="Query initialization genes by model and corpus, with held-out PPL convergence curves.">
+  <meta name="twitter:image" content="https://terrenceyeyang.github.io/EVO/assets/evo-dna-atlas-social.png">
+  <meta name="twitter:image:alt" content="EVO DNA Atlas poster with a DNA helix and three-column corpus evidence matrix">
+  <title>EVO DNA Atlas · Runnable micro-models and initialization genes</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/app.js?v=20260714-private-core" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="EVO DNA Atlas home">
+      <span class="wordmark-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>EVO <b>DNA Atlas</b></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#catalog">Atlas</a>
+      <a href="#method">Method</a>
+      <a href="#roadmap">Roadmap</a>
+      <a class="nav-repo" href="https://github.com/TerrenceYeYang/EVO">Evidence repository <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="signal-dot"></span> Living evidence atlas · v2</p>
+        <h1 id="hero-title">Small genes.<br><em>Measured</em> head starts.</h1>
+        <p class="hero-lede">Initialization DNA is a compact, ordered transform applied to a model’s weights before its first optimization step. This atlas separates promising mutations from fragments that have crossed a reproducible evidence threshold.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#catalog">Query the atlas <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#method">Read the verification contract <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <aside class="coverage-card" aria-labelledby="coverage-title">
+        <div class="coverage-topline">
+          <p class="micro-label">Atlas coverage</p>
+          <span class="live-chip" id="evidence-lineage-count">1 evidence lineage</span>
+        </div>
+        <h2 id="coverage-title"><strong id="runnable-lineage-count">6</strong> runnable <span>lineages</span></h2>
+        <p class="coverage-warning"><strong>Availability is not evidence.</strong> Six architecture-inspired micro-model lineages are runnable; only the Phi-4-style lineage currently has initialization-DNA evidence. None are official checkpoints.</p>
+        <dl class="coverage-facts">
+          <div>
+            <dt>Verified gene</dt>
+            <dd id="verified-gene-count">3</dd>
+          </div>
+          <div>
+            <dt>Verified recipe</dt>
+            <dd id="verified-recipe-count">2</dd>
+          </div>
+          <div>
+            <dt>Experimental</dt>
+            <dd id="experimental-count">2</dd>
+          </div>
+        </dl>
+        <div class="dna-rhythm" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="evidence-strip" aria-label="Current verification summary">
+      <div>
+        <span class="strip-index">01</span>
+        <p><strong><span id="verification-gate-value">10</span>% gate</strong><br>Minimum mean step reduction versus fresh empty DNA</p>
+      </div>
+      <div>
+        <span class="strip-index">02</span>
+        <p><strong><span id="minimum-seed-count">5</span> held-out seeds</strong><br>Paired validation after search</p>
+      </div>
+      <div>
+        <span class="strip-index">03</span>
+        <p><strong><span id="provenance-run-count">603</span> runs traced</strong><br>SHA-256 provenance across the Phi study</p>
+      </div>
+    </section>
+
+    <section class="catalog-section" id="catalog" aria-labelledby="catalog-title">
+      <header class="section-heading">
+        <div>
+          <p class="eyebrow">Evidence catalog</p>
+          <h2 id="catalog-title">Query models &amp; DNA</h2>
+        </div>
+        <p>Each DNA fragment remains one primary record. Its drawer opens with a layered ledger of every recorded discovery, calibration, control, breeding, ablation, and integrity check; it then maps every compatible model across every registered corpus and plots verified PPL convergence trajectories. Fixed-token parameter-count evidence remains separate from joint model-and-independent-corpus scaling, and untested gaps remain explicit instead of becoming a fabricated 0% effect.</p>
+      </header>
+
+      <form class="filter-bar" id="catalog-filters" role="search">
+        <div class="search-field">
+          <label for="search-input">Search models, genes, corpora, targets</label>
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" name="query" type="search" placeholder="Try “news”, “QKV” or “scale”" autocomplete="off">
+        </div>
+        <div class="select-field">
+          <label for="family-filter">Family</label>
+          <select id="family-filter" name="family"><option value="">All families</option></select>
+        </div>
+        <div class="select-field">
+          <label for="corpus-filter">Corpus</label>
+          <select id="corpus-filter" name="corpus"><option value="">All corpora</option></select>
+        </div>
+        <div class="select-field">
+          <label for="status-filter">Status</label>
+          <select id="status-filter" name="status"><option value="">All statuses</option></select>
+        </div>
+        <div class="select-field">
+          <label for="target-filter">Target</label>
+          <select id="target-filter" name="target"><option value="">All targets</option></select>
+        </div>
+        <div class="select-field">
+          <label for="op-filter">Operation</label>
+          <select id="op-filter" name="op"><option value="">All operations</option></select>
+        </div>
+        <button class="reset-button" id="reset-filters" type="reset">Reset</button>
+      </form>
+
+      <div class="result-meta" aria-live="polite">
+        <p id="result-count">Loading atlas data…</p>
+        <p class="legend" aria-label="Status legend">
+          <span class="legend-verified">Verified</span>
+          <span class="legend-experimental">Experimental</span>
+          <span class="legend-none">DNA untested</span>
+          <span class="legend-planned">Planned</span>
+        </p>
+      </div>
+
+      <div class="catalog-grid" id="catalog-grid" aria-busy="true">
+        <article class="gene-card fallback-card" data-status="verified">
+          <div class="card-topline"><span class="status status-verified">Verified</span><span>Phi-4-style proxy</span></div>
+          <h3>Current native screen · RMSNorm scale 1.758533</h3>
+          <p>Independently discovered from empty DNA on a 7,700,256-parameter proxy, then transferred byte-for-byte to a 7,757,256-parameter sibling on the same contiguous 75,497,473-token corpus prefix. Source search 32 → 6 → 1, two independent five-seed source/sibling validations, one-generation 13 × 2 breeding, and a final five-seed three-arm test are complete.</p>
+          <code>layernorm.weight · scale · 1.758533</code>
+          <div class="metric"><strong>19.76%</strong><span>fewer mean training tokens to frozen PPL ≤ 3.514751</span></div>
+          <p class="card-secondary">Sibling unchanged transfer +13.86% (4/5); fresh final parent +12.04% (5/5); selected two-gene recipe +16.93% (5/5). The added mutation's +5.57% increment failed the 10% gate and remains experimental.</p>
+          <div class="card-tags"><span>原生基因</span><span>17 checks recorded</span><span>7,700,256 → 7,757,256 parameters</span><span>75,497,473 corpus tokens</span></div>
+          <p class="fallback-note">Enable JavaScript to query the full catalog and inspect per-seed evidence.</p>
+        </article>
+      </div>
+
+      <noscript>
+        <div class="noscript-note">
+          <strong>The core record remains readable without JavaScript.</strong>
+          <p>The current native Phi-4 screen independently discovered <code>{"target":"layernorm.weight","op":"scale","value":1.758533}</code> from empty DNA on a <strong>7,700,256-parameter</strong> proxy and a contiguous <strong>75,497,473-token</strong> balanced-mix prefix. Calibration, the 32 → 6 → 1 search, and five-seed held-out source-model validation completed with 5/5 positive pairs and a 19.76% ratio-of-means token gain. The identical DNA bytes were then transferred to a same-family <strong>7,757,256-parameter</strong> sibling on the same <strong>75,497,473-token</strong> prefix: the first unchanged-transfer cohort gained 13.86% with 4/5 positive pairs, and a fresh final cohort gained 12.04% with 5/5 positive pairs. One generation screened 13 append-only offspring on two search seeds. The frozen child added <code>{"target":"attention_qkv.weight","op":"scale","value":0.861832}</code>; a fresh five-seed three-arm test found the full two-gene recipe 16.93% faster than empty, while the mutation added only 5.57% over its inherited parent. The complete recipe is therefore verified, but the mutation remains experimental and strict <code>evolution_succeeded</code> is false. All arms reached threshold.</p>
+          <p><strong>Layered publication checks:</strong> the detail ledger records clean-room empty discovery; source and sibling threshold calibration; search/held-out seed isolation; source and unchanged-sibling paired controls; 13 × 2 breeding search; the final fresh-empty/inherited-parent/selected-offspring three-arm control; the performed “remove added mutation” incremental ablation; the unperformed mutation-only parent-removal ablation; continuous no-replacement corpus contracts; exact 7,700,256/7,757,256 parameter identities; byte-identical inherited DNA; and 60-run plus 56-run hash-chain verification. Search-only evidence, the failed incremental 10% gate, and the unperformed control remain visible rather than being counted as passes. The mutation’s 5.57% is a threshold-crossing speed gain, not a final-PPL drop; at the last checkpoint its selected/parent geometric-mean PPL ratio was 0.995634 (about 0.44% lower).</p>
+          <p>Earlier verified genes remain <code>{"target":"all.weight","op":"scale","value":1.929023}</code> and <code>{"target":"layernorm.weight","op":"scale","value":1.9}</code>. On the <strong>Original study mixed corpus</strong>, the first reduced mean steps to PPL ≤ 7 by 40.24% on source A and 44.82% after unchanged transfer to sibling B; the independently probed RMSNorm fragment reduced them by 37.86% on sibling B. A separate frozen V2 protocol, using five validation seeds absent from the earlier component search and validation, then verified that RMSNorm fragment on Encyclopedic English, English news, and a strict 50/50 mixture: token-to-threshold gains were 33.93%, 34.53%, and 33.45%, respectively, with 5/5 positive held-out seeds in every domain. The QKV normalization mutation remains experimental; the complete two-gene recipe is verified at 46.52% versus empty on sibling B.</p>
+          <p>At each of the 32 within-run evaluation checkpoints in every V2 corpus, the DNA geometric-mean validation PPL remained below fresh empty. The paired DNA/empty PPL ratio moved from 0.438 → 0.906 on Encyclopedic English, 0.451 → 0.913 on English news, and 0.447 → 0.901 on the balanced mixture. This shows a strong early optimization head start that narrows but persists through 13.1M training tokens; it is a fixed-size learning trajectory, not a model-size scaling law.</p>
+          <p>A fresh parameter-count study kept the same <code>layernorm.weight × 1.9</code> DNA and reran 889,440-, 3,456,192-, and 7,700,256-parameter proxies with five new paired seeds. All nine parameter-count × corpus cells passed the 10% gate and all 45 pairs improved. Mean cell gains were 37.17%, 31.70%, and 24.80% as parameter count increased; all five seed-blocked slopes were negative. The DNA therefore remained effective over the measured sizes but weakened under this fixed training recipe. This is descriptive evidence, not a general scaling law or an extrapolation to official Phi-4 scale.</p>
+          <p>A fresh joint study then increased model and independent corpus budgets together across 889,440 parameters with 8,388,609 corpus tokens, 3,456,192 parameters with 33,554,433 corpus tokens, and 7,700,256 parameters with 75,497,473 corpus tokens. It used WikiText-103, one pinned VOA News stream, and their fixed 50/50 block mixture. All nine cells passed the frozen gate with 5/5 positive seeds; equal-corpus threshold gains were 37.73%, 25.21%, and 17.23% as the measured parameter and corpus budgets increased. All five seed-blocked slopes were negative, so the DNA remained effective but weakened over this measured joint range. Each run made one continuous, no-replacement pass over a nested prefix of a pinned 83,886,082-token master stream; model and corpus effects remain inseparable.</p>
+          <p>Runnable DNA-untested profiles: Llama 3.1-8B-style, Qwen2.5-7B-style, Gemma 2-2B-style, Mistral 7B-v0.1-style, and DeepSeek-V3-main-style. These architecture-inspired micro-models carry no training-efficiency claim.</p>
+        </div>
+      </noscript>
+    </section>
+
+    <section class="method-section" id="method" aria-labelledby="method-title">
+      <div class="method-intro">
+        <p class="eyebrow">Verification contract</p>
+        <h2 id="method-title">A gene earns its color.</h2>
+        <p>Every verified claim is judged against a fresh-empty baseline under a frozen training contract. Each published DNA record also carries a layered testing ledger: discovery, calibration, seed isolation, held-out controls, lineage breeding, ablations, model and corpus coordinates, and hash-chain checks are listed separately. Failed, experimental, and unperformed checks remain visible. Incremental inherited-baseline results remain explicitly experimental, cross-corpus claims use thresholds frozen separately for each corpus, and joint scaling is displayed by exact parameter counts and corpus-token budgets; nominal targets remain internal protocol coordinates.</p>
+        <a class="text-link light" href="data/catalog.json">Inspect the public evidence catalog <span aria-hidden="true">↗</span></a>
+      </div>
+      <ol class="method-steps">
+        <li>
+          <span>01</span>
+          <div><h3>Begin empty</h3><p>Search starts from <code>genesis_empty</code>. Historical model DNA is excluded from source discovery.</p></div>
+        </li>
+        <li>
+          <span>02</span>
+          <div><h3>Freeze the race</h3><p>Corpus, optimizer, schedule, budget, evaluation interval, and seed pairing remain fixed.</p></div>
+        </li>
+        <li>
+          <span>03</span>
+          <div><h3>Measure convergence</h3><p>Legacy claims use linearly interpolated steps to PPL 7; cross-corpus claims use corpus-specific frozen thresholds and show unsmoothed geometric-mean PPL curves with the observed five-seed min–max range. Fixed-token parameter-count studies remain a separate reference. Joint studies consume nested, continuous corpus prefixes once and plot progress as a fraction of that independent prefix.</p></div>
+        </li>
+        <li>
+          <span>04</span>
+          <div><h3>Cross the gate</h3><p>Verified means at least 10% fewer ratio-of-means tokens versus fresh empty DNA across five held-out pairs, with every run hitting threshold. Cross-corpus and joint cells also require at least 4/5 positive pairs and non-regressing log-PPL excess AUC.</p></div>
+        </li>
+        <li>
+          <span>05</span>
+          <div><h3>Publish every check</h3><p>The evidence ledger distinguishes search from held-out validation, enumerates fresh-empty and inherited-parent controls, records breeding and ablation arms, and names any control that was not run. A missing experiment is never presented as a passed result.</p></div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="roadmap-section" id="roadmap" aria-labelledby="roadmap-title">
+      <header class="section-heading">
+        <div>
+          <p class="eyebrow">Runnable roster</p>
+          <h2 id="roadmap-title">Six lineages. One with evidence.</h2>
+        </div>
+        <p>All six micro-model lineages can enter the same controlled training workflow. Only Phi currently exposes DNA claims; the other five cards publish architecture and measured parameter counts, never invented effects.</p>
+      </header>
+      <div class="roadmap-track" aria-label="Model family roadmap">
+        <article class="roadmap-active">
+          <span class="roadmap-state">原生基因 · source + sibling verified</span>
+          <h3>Phi-4-style</h3>
+          <p>Source: 7,700,256 parameters<br>Sibling: 7,757,256 parameters<br>Each: 75,497,473 corpus tokens<br>Unchanged native gene: verified<br>One-generation recipe: verified<br>Added mutation: experimental (5.57% &lt; 10%)</p>
+        </article>
+        <article><span class="roadmap-state">Runnable · DNA untested</span><h3>Llama 3.1</h3><p>8B-style micro</p></article>
+        <article><span class="roadmap-state">Runnable · DNA untested</span><h3>Qwen2.5</h3><p>7B-style micro</p></article>
+        <article><span class="roadmap-state">Runnable · DNA untested</span><h3>Gemma 2</h3><p>2B-style micro</p></article>
+        <article><span class="roadmap-state">Runnable · DNA untested</span><h3>Mistral 7B</h3><p>v0.1-style micro</p></article>
+        <article><span class="roadmap-state">Runnable · DNA untested</span><h3>DeepSeek-V3</h3><p>Main-model-style micro</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <p class="footer-mark">EVO DNA Atlas</p>
+      <p>Initialization fragments for faster, measured beginnings.</p>
+    </div>
+    <div class="footer-notes">
+      <p>Evidence updated <time datetime="2026-07-13">13 July 2026</time></p>
+      <p>Open research · proxy results are not official model claims</p>
+    </div>
+  </footer>
+
+  <dialog class="detail-drawer" id="detail-drawer" aria-labelledby="detail-title">
+    <div class="drawer-shell">
+      <button class="drawer-close" id="drawer-close" type="button" aria-label="Close details">Close <span aria-hidden="true">×</span></button>
+      <div id="drawer-content"></div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="copy-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
